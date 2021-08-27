@@ -49,6 +49,7 @@ function Chat() {
 
   return (
     <div>
+      <br></br>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
