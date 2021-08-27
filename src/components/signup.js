@@ -35,19 +35,27 @@ function SignUp() {
   return (
     <div>
       <form>
+        <br></br>
+
         <input
           type="text"
           placeholder="Email"
           value={email}
           onChange={handleEmailChange}
         />
+        <br></br>
+        <br></br>
         <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={handlePasswordChange}
         />
+        <br></br>
+        <br></br>
         <input type="submit" value="Log In" onClick={handleSignIn} />
+        <br></br>
+        <br></br>
         <input type="submit" value="Sign Up" onClick={handleSignUp} />
       </form>
     </div>
